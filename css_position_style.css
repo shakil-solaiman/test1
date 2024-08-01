@@ -1,0 +1,41 @@
+.box1
+{
+    width: 600px;
+    height: 400px;
+    background-color: green;
+    position: relative;
+}
+
+.box2
+{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.name
+{
+    border: 2px solid black;
+    margin-top: 10px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.tutul
+{
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+}

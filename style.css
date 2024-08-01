@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-size: 18px;
+    background: #f2f2f2;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.container 
+{
+    background-color: white;
+    width: 550px;
+    padding: 25px;
+    margin: 50px auto;
+    border-top: 7px solid green;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.input-items
+{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+
+.icon
+{
+    padding: 8px 11px;
+}
+
+.name
+{
+    width: 45.5%;
+    padding: 8px 0 8px 40px;
+}
+
+.input-items span
+{
+    margin-left: 35px;
+}
+
+.input-elements
+{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+
+.input-items i
+{
+    position: absolute;
+    font-size: 18px;
+    color: green;
+    border-right: 1px solid #cccccc;
+}
+
+.name , .input-elements
+{
+    border: 1px solid #cccccc;
+    outline: none;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.name:hover , .input-elements:hover
+{
+    background-color: azure;
+}
+
+.name:focus , .input-elements:focus
+{
+    border: 1px solid green;
+}
+
+.radio-button
+{
+    margin: 3px;
+}
+
+.label
+{
+    margin-right: 15px;
+}
+
+.country
+{
+    display: inline-block;
+    width: 100%;
+    height: 33px;
+    padding: 0 10px;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    /* color: #7b7b7b; */
+    background: white;
+    /* appearance: none; */
+}
+
+.country:hover
+{
+    background-color: azure;
+    color: green;
+}
+
+.country:focus
+{
+    border-color: 1px solid green;
+    outline: none;
+}
+
+.submit-button
+{
+    background-color: green;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+

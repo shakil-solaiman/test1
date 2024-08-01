@@ -1,0 +1,31 @@
+h1
+{
+    text-align: center;
+    display: inline-block;
+}
+
+/* using  display covert to block element from inline element and vice versa */
+
+span
+{
+    text-align: center;
+    display: block;
+}
+
+h2
+{
+    display: inline-block;
+}
+
+.span
+{
+    display:inline;
+    font-size: 20px;
+}
+
+ul li
+{
+    display: inline;
+    font-size: 20px;
+    margin-right: 10px;
+}
